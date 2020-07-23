@@ -1,11 +1,7 @@
 /// <reference types="Cypress" />
 
 context('Actions', () => {
-    //beforeEach(() => {
-    //    cy.visit('http://localhost:27246/Billeteras/Balance')
-    //})
-
-
+    
     it('GIVEN', () => {
         cy.visit('http://localhost:27246/Billeteras/Balance')
         cy.log('**AND**')
